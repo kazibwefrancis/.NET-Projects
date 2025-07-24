@@ -17,6 +17,16 @@ class Program
         double hypotenuse = Math.Sqrt((length1*length1)*(length2*length2));
         Console.WriteLine($"The hyotenuse is : {hypotenuse}");
 
+        int
+        double
+        decimal
+            biginteger
+        short 
+        decimal 
+        "3.00"
+
+        Convert.ToDouble()
+
         Console.ReadKey();
     }
 }
