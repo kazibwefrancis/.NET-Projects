@@ -1,8 +1,5 @@
 
-// Ensure the following using matches the actual namespace where SmartlifeDbContext is defined.
-// For example, if SmartlifeDbContext is in Thanos_API.Context, update accordingly.
-// Update the namespace below to the actual namespace where SmartlifeDbContext is defined.
-// For example, if it's in Thanos_API.Context, use that instead.
+
 using Thanos_API.Data;
 using Microsoft.EntityFrameworkCore;
 
@@ -15,7 +12,7 @@ builder.Services.AddControllers();
 builder.Services.AddDbContext<SmartlifeDbContext>(options =>
     options.UseOracle(builder.Configuration.GetConnectionString("SmartlifeDb"))
 );
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
